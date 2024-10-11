@@ -4,6 +4,7 @@ public class Cargo {
     private String titulo;
     private String descricao;
 
+    // Construtor
     public Cargo(String titulo, String descricao) {
         this.titulo = titulo;
         this.descricao = descricao;
@@ -24,5 +25,11 @@ public class Cargo {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    // Método toString
+    @Override
+    public String toString() {
+        return "Cargo [titulo=" + titulo + ", descricao=" + descricao + "]";
     }
 }

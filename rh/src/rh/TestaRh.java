@@ -18,7 +18,7 @@ public class TestaRh {
 
 		// Exibindo informações
 		System.out.println("Departamento: " + deptTI.getNome());
-		for (Empregado emp : deptTI.getEmpregados()) {
+		for (Empregado emp : deptTI.listarEmpregados()) {
 			System.out.println("Empregado: " + emp.getNome() + ", Cargo: " + emp.getCargo().getTitulo() + ", Nível: "
 					+ emp.getNivel());
 		}

@@ -13,7 +13,8 @@ public class Empregado extends Funcionario {
         this.nivel = nivel;
     }
 
-    // Getters e Setters
+    
+	// Getters e Setters
     public double getSalario() {
         return salario;
     }
